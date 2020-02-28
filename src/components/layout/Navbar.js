@@ -19,6 +19,9 @@ class Navbar extends Component{
                                 <Link className="nav-link" to="/book">Books</Link>
                             </li>
                             <li className="nav-item">
+                                <Link className="nav-link" to="/book-modal">Modal Books</Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link className="nav-link" to="/about">About</Link>
                             </li>
                         </ul>
