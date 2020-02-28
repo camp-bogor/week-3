@@ -9,3 +9,14 @@ export const getBooks = () => {
         })
     }
 }
+
+export const postBook = (data) => {
+    return{
+        type: 'POST_BOOK',
+        payload: axios({
+            method: "POST",
+            url: "http://localhost:8000/book",
+            data: data
+        })
+    }
+}
